@@ -12,9 +12,9 @@ public class Main {
 
 		System.out.println(gumballMachine);
 
-		gumballMachine.insertQuarter( 25 );
+		gumballMachine.insertQuarter( 50 );
 		gumballMachine.turnCrank();
-		gumballMachine.insertQuarter( 25 );
+		gumballMachine.insertQuarter( 50 );
 		gumballMachine.turnCrank();
 
 		System.out.println(gumballMachine);
