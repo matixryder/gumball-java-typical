@@ -27,17 +27,17 @@ public class GumballMachine {
         int curretChange = 0;
 
         if (currentValue = 50) {
-            System.out.println("Thank you for playing")
-            this.has_quarter = true
+            System.out.println("Thank you for playing");
+            this.has_quarter = true;
         }
         else if (currentValue < 50) {
-            System.out.println("Please insert more coins until you reach 50 cents")
-            this.has_quarter = true
+            System.out.println("Please insert more coins until you reach 50 cents");
+            this.has_quarter = true;
         }
         else if (currentValue > 50) {
             currentChange = currentValue - 50;
             System.out.println("Here is your change" + currentChange + "cent(s)");
-            this.has_quarter = true
+            this.has_quarter = true;
         }
 
         else {
